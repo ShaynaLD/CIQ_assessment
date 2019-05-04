@@ -1,0 +1,14 @@
+#main_content{
+    width:1200px;
+    margin:0 auto;
+}
+#main_content h1{
+    text-align:center;
+}
+#IBM-closing-chart{
+    display:block;
+    width: 1000px;
+    height: 600px;
+    margin: 50px auto;
+    border:1px solid #000;
+}
