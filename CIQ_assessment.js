@@ -133,24 +133,64 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     //render moving average of closing price     
     ctx.font = "10px Arial";
-    ctx.fillText(calculate_moving_average(0),50,200);
-    ctx.fillText(calculate_moving_average(1),95,200);
-    ctx.fillText(calculate_moving_average(2),140,200);
-    ctx.fillText(calculate_moving_average(3),185,200);
-    ctx.fillText(calculate_moving_average(4),230,200);
-    ctx.fillText(calculate_moving_average(5),275,200);
-    ctx.fillText(calculate_moving_average(6),320,200);
-    ctx.fillText(calculate_moving_average(7),365,200);
-    ctx.fillText(calculate_moving_average(8),410,200);
-    ctx.fillText(calculate_moving_average(9),455,200);
-    ctx.fillText(calculate_moving_average(10),500,200);
-    ctx.fillText(calculate_moving_average(11),545,200);
-    ctx.fillText(calculate_moving_average(12),590,200);
-    ctx.fillText(calculate_moving_average(13),635,200);
-    ctx.fillText(calculate_moving_average(14),680,200);
-    ctx.fillText(calculate_moving_average(15),725,200);
-    ctx.fillText(calculate_moving_average(16),765,200);
-    ctx.fillText(calculate_moving_average(17),810,200);
-    ctx.fillText(calculate_moving_average(18),855,200);
-    ctx.fillText(calculate_moving_average(19),900,200);
-  });
+
+    let ave_lable_position = 85;
+    ctx.fillText(calculate_moving_average(0),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(1),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(2),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(3),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(4),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(5),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(6),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(7),ave_lable_position,200);
+      
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(8),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(9),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(10),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(11),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(12),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(13),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(14),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(15),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(16),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(17),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(18),ave_lable_position,200);
+   
+    ave_lable_position = ave_lable_position + date_spacer;
+    ctx.fillText(calculate_moving_average(19),ave_lable_position,200);
+  })  
