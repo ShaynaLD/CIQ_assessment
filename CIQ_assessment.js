@@ -68,5 +68,24 @@ document.addEventListener("DOMContentLoaded", function(event) {
     console.log('calculate_moving_average(2) = ' + calculate_moving_average(2));
     // console.log(' for i=2, sum=52.93, ave=17.64');
 
-   
+    ctx.fillText(calculate_moving_average(0),50,200);
+    ctx.fillText(calculate_moving_average(1),95,200);
+    ctx.fillText(calculate_moving_average(2),140,200);
+    ctx.fillText(calculate_moving_average(3),185,200);
+    ctx.fillText(calculate_moving_average(4),230,200);
+    ctx.fillText(calculate_moving_average(5),275,200);
+    ctx.fillText(calculate_moving_average(6),320,200);
+    ctx.fillText(calculate_moving_average(7),365,200);
+    ctx.fillText(calculate_moving_average(8),410,200);
+    ctx.fillText(calculate_moving_average(9),455,200);
+    ctx.fillText(calculate_moving_average(10),500,200);
+    ctx.fillText(calculate_moving_average(11),545,200);
+    ctx.fillText(calculate_moving_average(12),590,200);
+    ctx.fillText(calculate_moving_average(13),635,200);
+    ctx.fillText(calculate_moving_average(14),680,200);
+    ctx.fillText(calculate_moving_average(15),725,200);
+    ctx.fillText(calculate_moving_average(16),765,200);
+    ctx.fillText(calculate_moving_average(17),810,200);
+    ctx.fillText(calculate_moving_average(18),855,200);
+    ctx.fillText(calculate_moving_average(19),900,200);
   });
