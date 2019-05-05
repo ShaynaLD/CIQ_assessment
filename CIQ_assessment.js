@@ -3,9 +3,59 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var canvas = document.getElementById("IBM-closing-chart");
     var ctx = canvas.getContext("2d");
 
+    ctx.beginPath()
     ctx.moveTo(45,10);
     ctx.lineTo(45,550);
     ctx.lineTo(990,550);
+    ctx.stroke();
+
+    ctx.beginPath()
+    //horizontal, whole numbers rules
+    ctx.moveTo(45,20);
+    ctx.lineTo(990,20);
+    ctx.moveTo(45,90);
+    ctx.lineTo(990,90);
+    ctx.moveTo(45,160);
+    ctx.lineTo(990,160);
+    ctx.moveTo(45,240);
+    ctx.lineTo(990,240);
+    ctx.moveTo(45,310);
+    ctx.lineTo(990,310);
+    ctx.moveTo(45,380);
+    ctx.lineTo(990,380);
+    ctx.moveTo(45,450);
+    ctx.lineTo(990,450);
+    ctx.moveTo(45,520);
+    ctx.lineTo(990,520);
+
+   
+
+    // ctx.lineTo(990,520);
+    ctx.strokeStyle = "#ccc";
+    ctx.lineWidth = 1;
+    ctx.stroke();
+    
+
+    ctx.beginPath()
+    //horizontal, fractional numbers rules
+    ctx.moveTo(45,55);
+    ctx.lineTo(990,55);
+    ctx.moveTo(45,125);
+    ctx.lineTo(990,125);
+    ctx.moveTo(45,195);
+    ctx.lineTo(990,195);
+    ctx.moveTo(45,275);
+    ctx.lineTo(990,275);
+    ctx.moveTo(45,345);
+    ctx.lineTo(990,345);
+    ctx.moveTo(45,415);
+    ctx.lineTo(990,415);
+    ctx.moveTo(45,485);
+    ctx.lineTo(990,485);
+    // ctx.moveTo(45,520);
+
+    ctx.lineTo(990,520);ctx.strokeStyle = "#ddd";
+    ctx.lineWidth = 1;
     ctx.stroke();
 
     ctx.font = "14px Arial";
@@ -43,8 +93,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var closing_price_array=[ 17.52, 17.86, 17.55, 18.24, 17.54, 18.63, 18.09, 18.46, 19.23, 19.50, 19.17, 19.51, 19.88, 19.91, 20.47, 20.39, 20.24, 20.83, 20.75, 20.95, ];
     var moving_average_array = []
     function calculate_moving_average(i){
-        console.log('');
-        console.log('i = ' + i );
+        // console.log('');
+        // console.log('i = ' + i );
         var moving_average;
         if(i===0){
             moving_average = (closing_price_array[0]);
@@ -63,9 +113,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         // console.log('closing_price_array[' + i + '] = ' + closing_price_array[i] );
         return moving_average;
     }
-    console.log('calculate_moving_average(0) = ' + calculate_moving_average(0));
-    console.log('calculate_moving_average(1) = ' + calculate_moving_average(1));
-    console.log('calculate_moving_average(2) = ' + calculate_moving_average(2));
+    // console.log('calculate_moving_average(0) = ' + calculate_moving_average(0));
+    // console.log('calculate_moving_average(1) = ' + calculate_moving_average(1));
+    // console.log('calculate_moving_average(2) = ' + calculate_moving_average(2));
     // console.log(' for i=2, sum=52.93, ave=17.64');
 
     ctx.fillText(calculate_moving_average(0),50,200);
