@@ -28,7 +28,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
     ctx.moveTo(45,520);
     ctx.lineTo(990,520);
 
-   
+    //vertical, whole numbers rules
+    let x =95;
+    ctx.moveTo(x,10);
+    ctx.lineTo(x,550);
+    while(x <= 999){
+        x = x+45;
+        console.log(x);
+        ctx.moveTo(x,10);
+        ctx.lineTo(x,550);
+    }
 
     // ctx.lineTo(990,520);
     ctx.strokeStyle = "#ccc";
