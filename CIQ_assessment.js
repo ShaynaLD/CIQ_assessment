@@ -60,43 +60,62 @@ document.addEventListener("DOMContentLoaded", function(event) {
     let date_label = 85;
     const x_axis_increment = 45
     ctx.fillText("4/5",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/8",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/9",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/10",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/11",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/12",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/15",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/16",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/17",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/18",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/22",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/23",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/24",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/25",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/26",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/29",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("4/30",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("5/1",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("5/2",date_label,570);
-        date_label = date_label + x_axis_increment;
+    
+    date_label = date_label + x_axis_increment;
     ctx.fillText("5/3",date_label,570);
 
     //calculate moving average of closing price
