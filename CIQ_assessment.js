@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     ctx.fillText("16",25,450);
     ctx.fillText("15",25,520);
 
-    ctx.fillText("4/7",50,570);
+    ctx.fillText("4/5",50,570);
     ctx.fillText("4/8",95,570);
     ctx.fillText("4/9",140,570);
     ctx.fillText("4/10",185,570);
@@ -39,5 +39,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     ctx.fillText("5/2",855,570);
     ctx.fillText("5/3",900,570);
 
+
+    var close_array=[ 17.52, 17.86, 17.55, 18.24, 17.54, 18.63, 18.09, 18.46, 19.23, 19.50, 19.17, 19.51, 19.88, 19.91, 20.47, 20.39, 20.24, 20.83, 20.75, 20.95, ];
+  
 
   });
