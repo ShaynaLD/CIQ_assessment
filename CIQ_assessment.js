@@ -135,6 +135,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     ctx.font = "10px Arial";
 
     let ave_lable_position_x = 85;
+
     ctx.fillText(calculate_moving_average(0),ave_lable_position_x,335);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
@@ -153,44 +154,44 @@ document.addEventListener("DOMContentLoaded", function(event) {
     ctx.fillText(calculate_moving_average(5),ave_lable_position_x,310);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(6),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(6),ave_lable_position_x,308);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(7),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(7),ave_lable_position_x,305);
       
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(8),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(8),ave_lable_position_x,295);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(9),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(9),ave_lable_position_x,285);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(10),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(10),ave_lable_position_x,280);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(11),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(11),ave_lable_position_x,275);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(12),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(12),ave_lable_position_x,265);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(13),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(13),ave_lable_position_x,260);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(14),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(14),ave_lable_position_x,250);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(15),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(15),ave_lable_position_x,245);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(16),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(16),ave_lable_position_x,240);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(17),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(17),ave_lable_position_x,230);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(18),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(18),ave_lable_position_x,225);
    
     ave_lable_position_x = ave_lable_position_x + date_spacer;
-    ctx.fillText(calculate_moving_average(19),ave_lable_position_x,200);
+    ctx.fillText(calculate_moving_average(19),ave_lable_position_x,220);
   })  
