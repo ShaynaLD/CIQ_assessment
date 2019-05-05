@@ -57,47 +57,47 @@ document.addEventListener("DOMContentLoaded", function(event) {
     ctx.fillText("$15",20,520);
 
     //add dates along x-axis
-    let date_lable = 85;
+    let date_label = 85;
     const x_axis_increment = 45
-    ctx.fillText("4/5",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/8",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/9",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/10",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/11",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/12",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/15",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/16",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/17",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/18",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/22",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/23",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/24",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/25",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/26",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/29",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("4/30",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("5/1",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("5/2",date_lable,570);
-        date_lable = date_lable + x_axis_increment;
-    ctx.fillText("5/3",date_lable,570);
+    ctx.fillText("4/5",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/8",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/9",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/10",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/11",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/12",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/15",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/16",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/17",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/18",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/22",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/23",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/24",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/25",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/26",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/29",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("4/30",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("5/1",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("5/2",date_label,570);
+        date_label = date_label + x_axis_increment;
+    ctx.fillText("5/3",date_label,570);
 
     //calculate moving average of closing price
     var closing_price_array=[ 17.52, 17.86, 17.55, 18.24, 17.54, 18.63, 18.09, 18.46, 19.23, 19.50, 19.17, 19.51, 19.88, 19.91, 20.47, 20.39, 20.24, 20.83, 20.75, 20.95, ];
@@ -122,85 +122,85 @@ document.addEventListener("DOMContentLoaded", function(event) {
     ctx.beginPath()
 
     //line to chart the moving average
-    let ave_lable_position_x = 85;
+    let ave_label_position_x = 85;
     let moving_average_point = 95;
-    ctx.fillText(calculate_moving_average(0),ave_lable_position_x,335);
+    ctx.fillText(calculate_moving_average(0),ave_label_position_x,335);
     ctx.moveTo(moving_average_point, 335);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(1),ave_lable_position_x,325);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(1),ave_label_position_x,325);
     ctx.lineTo(moving_average_point, 325);
 
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(2),ave_lable_position_x,330);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(2),ave_label_position_x,330);
     ctx.lineTo(moving_average_point, 330);
 
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(3),ave_lable_position_x,315);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(3),ave_label_position_x,315);
     ctx.lineTo(moving_average_point, 315);
 
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(4),ave_lable_position_x,322);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(4),ave_label_position_x,322);
     ctx.lineTo(moving_average_point, 322);
 
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(5),ave_lable_position_x,310);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(5),ave_label_position_x,310);
     ctx.lineTo(moving_average_point, 310);
 
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(6),ave_lable_position_x,308);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(6),ave_label_position_x,308);
     ctx.lineTo(moving_average_point, 308);
 
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(7),ave_lable_position_x,305);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(7),ave_label_position_x,305);
     ctx.lineTo(moving_average_point, 305);
     
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(8),ave_lable_position_x,295);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(8),ave_label_position_x,295);
     ctx.lineTo(moving_average_point, 295);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(9),ave_lable_position_x,285);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(9),ave_label_position_x,285);
     ctx.lineTo(moving_average_point, 285);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(10),ave_lable_position_x,280);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(10),ave_label_position_x,280);
     ctx.lineTo(moving_average_point, 280);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(11),ave_lable_position_x,275);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(11),ave_label_position_x,275);
     ctx.lineTo(moving_average_point, 275);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(12),ave_lable_position_x,265);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(12),ave_label_position_x,265);
     ctx.lineTo(moving_average_point, 265);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(13),ave_lable_position_x,260);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(13),ave_label_position_x,260);
     ctx.lineTo(moving_average_point, 260);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(14),ave_lable_position_x,250);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(14),ave_label_position_x,250);
     ctx.lineTo(moving_average_point, 250);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(15),ave_lable_position_x,245);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(15),ave_label_position_x,245);
     ctx.lineTo(moving_average_point, 245);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(16),ave_lable_position_x,240);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(16),ave_label_position_x,240);
     ctx.lineTo(moving_average_point, 240);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(17),ave_lable_position_x,230);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(17),ave_label_position_x,230);
     ctx.lineTo(moving_average_point, 230);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(18),ave_lable_position_x,225);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(18),ave_label_position_x,225);
     ctx.lineTo(moving_average_point, 225);
    
-    ave_lable_position_x = ave_lable_position_x + x_axis_increment;
-    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(19),ave_lable_position_x,220);
+    ave_label_position_x = ave_label_position_x + x_axis_increment;
+    moving_average_point = moving_average_point + x_axis_increment;    ctx.fillText(calculate_moving_average(19),ave_label_position_x,220);
     ctx.lineTo(moving_average_point, 220);
 
     ctx.strokeStyle = "#f00";
