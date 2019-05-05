@@ -9,14 +9,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
     ctx.stroke();
 
     ctx.font = "14px Arial";
-    ctx.fillText("22",25,20);
-    ctx.fillText("21",25,90);
-    ctx.fillText("20",25,160);
-    ctx.fillText("19",25,240);
-    ctx.fillText("18",25,310);
-    ctx.fillText("17",25,380);
-    ctx.fillText("16",25,450);
-    ctx.fillText("15",25,520);
+    ctx.fillText("$22",20,20);
+    ctx.fillText("$21",20,90);
+    ctx.fillText("$20",20,160);
+    ctx.fillText("$19",20,240);
+    ctx.fillText("$18",20,310);
+    ctx.fillText("$17",20,380);
+    ctx.fillText("$16",20,450);
+    ctx.fillText("$15",20,520);
 
     ctx.fillText("4/5",50,570);
     ctx.fillText("4/8",95,570);
