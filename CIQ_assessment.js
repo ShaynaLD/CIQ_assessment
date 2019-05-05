@@ -48,38 +48,25 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var moving_average;
         if(i===0){
             moving_average = (closing_price_array[0]);
-            console.log('moving_average in if = '  + moving_average);
         }
-
         else if(i>0){
-            // moving_average = ((closing_price_array[0]+ closing_price_array[i])/(i + 1)).toFixed(2);
             let prices_to_average=closing_price_array.slice(0,i+1);
-            console.log('prices_to_average = ' + prices_to_average);
-
+            // console.log('prices_to_average = ' + prices_to_average);
             let sum_of_prices=prices_to_average.reduce(add,0)
             function add(accumulator, a) {
                 return accumulator + a;
             }
-            console.log('sum_of_prices = ' + sum_of_prices);
+            // console.log('sum_of_prices = ' + sum_of_prices);
             moving_average = ((sum_of_prices)/(i + 1)).toFixed(2);
-
-
-            console.log('moving_average in if = '  + moving_average);
+            // console.log('moving_average in if = '  + moving_average);
         }
-
-        // let moving_average = ((closing_price_array[0]+ closing_price_array[i])/(i + 1)).toFixed(2);
-        console.log('closing_price_array[' + i + '] = ' + closing_price_array[i] );
-        // moving_average_array.push(moving_average);
-        // return moving_average_array;
+        // console.log('closing_price_array[' + i + '] = ' + closing_price_array[i] );
         return moving_average;
     }
     console.log('calculate_moving_average(0) = ' + calculate_moving_average(0));
     console.log('calculate_moving_average(1) = ' + calculate_moving_average(1));
-    // console.log(moving_average = ((closing_price_array[0] + closing_price_array[1]+ closing_price_array[i])/(i + 1)).toFixed(2));
-
     console.log('calculate_moving_average(2) = ' + calculate_moving_average(2));
-    console.log(' for i=2, sum=52.93, ave=17.64');
+    // console.log(' for i=2, sum=52.93, ave=17.64');
 
    
-
   });
