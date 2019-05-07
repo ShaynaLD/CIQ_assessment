@@ -19,6 +19,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
             ctx.moveTo(45,y);
             ctx.lineTo(990,y);
         }
+        ctx.strokeStyle = "#00f";
+    ctx.stroke();
+    ctx.beginPath()    
         //vertical, whole numbers rules
         let x =95;
         ctx.moveTo(x,10);
@@ -152,15 +155,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
         Y = 500 px * 80% = 400 px
         */
        console.log(calculate_moving_average(i));
-        let ave_percent =  (calculate_moving_average(i) / 22);
-        // let y_axis_location =  (690-(420 * ave_percent)).toFixed(2);
+    //    let ave_percent =  (calculate_moving_average(i) / 22);
+    let ave_percent =  540*(calculate_moving_average(i) / 19.24);
+    // let y_axis_location =  (690-(420 * ave_percent)).toFixed(2);
         // let y_axis_location =  (760-(540 * ave_percent)).toFixed(2);
-        let y_axis_location =  760-(540 * ave_percent).toFixed(2);
+        let y_axis_location = 825- (ave_percent).toFixed(2);
         console.log('ave_percent = ' + ave_percent);
         console.log('y_axis_location = ' + y_axis_location);
         console.log(' ');
         
         return y_axis_location;
+    //    return ave_percent;
     }
 
     // ctx.fillText(calculate_moving_average(0),ave_label_position_x,335);
